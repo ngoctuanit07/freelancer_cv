@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Host: jacklabs.io.vn
+
+Sitemap: https://jacklabs.io.vn/sitemap.xml
