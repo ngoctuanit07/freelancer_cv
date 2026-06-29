@@ -38,7 +38,7 @@ export const Hero: React.FC = () => {
             transition={{ delay: 0.35 }}
             className="text-lg md:text-xl text-gray-300 max-w-2xl mb-8"
           >
-            I build, maintain, and improve websites and web applications with Laravel, WordPress, Node.js, and Python. I can handle website maintenance, new builds, and feature development at $12/hour.
+            I build, maintain, and improve custom websites and web applications for businesses using Laravel, WordPress, Node.js, and Python. I specialize in website maintenance, new builds, and feature development for startups and growing companies.
           </motion.p>
 
           <div className="space-y-4 mb-10 text-lg">
@@ -73,7 +73,7 @@ export const Hero: React.FC = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             className="relative w-64 h-64 md:w-96 md:h-96 p-4 border-8 border-gray-800 rounded-full overflow-hidden shadow-2xl"
           >
-            <img src="/assets/images/hero.png" alt="Freelance web developer profile" className="w-full h-full object-cover rounded-full" />
+            <img src="/assets/images/hero.png" alt="Tuan Nguyen freelance Laravel and WordPress developer profile" className="w-full h-full object-cover rounded-full" />
           </motion.div>
         </div>
       </div>

@@ -13,7 +13,7 @@ export const Portfolio: React.FC = () => {
   return (
     <section id="portfolio" className="section-separator bg-darkBg">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl text-center mb-12">Project Portfolio</h2>
+        <h2 className="text-4xl text-center mb-12">Web Development Portfolio</h2>
         
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {categories.map(cat => (

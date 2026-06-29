@@ -15,7 +15,7 @@ export const About: React.FC = () => {
             className="flex-1"
           >
             <div className="relative p-4 bg-gray-800 rounded-2xl shadow-xl">
-              <img src="/assets/images/ab-img.png" alt="Freelance web development services and portfolio" className="rounded-xl w-full" />
+              <img src="/assets/images/ab-img.png" alt="Freelance web development services for Laravel WordPress Node.js and Python" className="rounded-xl w-full" />
             </div>
           </motion.div>
 
@@ -25,7 +25,7 @@ export const About: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               className="text-4xl"
             >
-              Professional Summary
+              About Tuan Nguyen | Freelance Web Developer
             </motion.h2>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}

@@ -8,7 +8,7 @@ export const Skills: React.FC = () => {
     <section id="skills" className="section-separator bg-darkCard">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl">Technical & Professional Skills</h2>
+          <h2 className="text-4xl">Technical & Professional Skills for Web Development</h2>
         </div>
         <div className="grid md:grid-cols-2 gap-16">
           <motion.div 

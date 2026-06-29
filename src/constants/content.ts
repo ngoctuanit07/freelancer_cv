@@ -3,18 +3,18 @@ import { Mail, Phone, Globe, Laptop } from 'lucide-react';
 export const CONTENT = {
   profile: {
     name: "Tuan Nguyen",
-    role: "Freelance Web Developer | Laravel, WordPress, Node.js, Python",
+    role: "Freelance Web Developer in Vietnam | Laravel, WordPress, Node.js, Python",
     email: "Tuannguyen0719@gmail.com",
     phone: "+84 984 350 829",
     address: "C2/22 Thuan Giao Residential Area, Thuan Giao Ward, Thuan An City, Binh Duong Province",
     socials: [
-      { platform: "Website", url: "http://johnnguyenn.com/", icon: Globe },
+      { platform: "Website", url: "https://jacklabs.io.vn/", icon: Globe },
       { platform: "Email", url: "mailto:Tuannguyen0719@gmail.com", icon: Mail },
-      { platform: "Portfolio", url: "http://johnnguyenn.com/", icon: Laptop },
+      { platform: "Portfolio", url: "https://jacklabs.io.vn/", icon: Laptop },
       { platform: "Phone", url: "tel:+84984350829", icon: Phone },
     ],
-    summary: "Freelance web developer specializing in Laravel, WordPress, Node.js, and Python. I provide website maintenance, new website development, and new feature development with a flexible hourly rate of $12/hour. I can work on existing projects, build from scratch, and deliver reliable web solutions for businesses and startups.",
-    tags: ["Freelance Laravel Developer", "Freelance WordPress Developer", "Freelance Node.js Developer", "Freelance Python Developer", "Website Maintenance", "New Feature Development", "$12/hour"]
+    summary: "I am a freelance web developer in Vietnam specializing in Laravel, WordPress, Node.js, and Python. I provide website maintenance, custom web development, and feature development services for businesses, startups, and growing companies at a flexible hourly rate of $12/hour.",
+    tags: ["Freelance Laravel Developer", "Freelance WordPress Developer", "Freelance Node.js Developer", "Freelance Python Developer", "Website Maintenance", "Custom Web Development", "Feature Development", "$12/hour"]
   },
   expertise: [
     {
@@ -109,7 +109,7 @@ export const CONTENT = {
     },
     {
       id: "p4",
-      title: "johnnguyenn.com",
+      title: "jacklabs.io.vn",
       category: "WordPress",
       subTitle: "WordPress",
       description: "Personal branding and portfolio site.",
