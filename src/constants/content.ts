@@ -1,13 +1,6 @@
 import { Mail, Phone, Globe, Laptop } from 'lucide-react';
-import g1 from '../../assets/images/portfolio/g1.jpg';
-import g2 from '../../assets/images/portfolio/g2.png';
-import g3 from '../../assets/images/portfolio/g3.png';
-import g4 from '../../assets/images/portfolio/g4.png';
-import g5 from '../../assets/images/portfolio/g5.png';
-import g6 from '../../assets/images/portfolio/g6.png';
-import g7 from '../../assets/images/portfolio/g7.jpg';
-import g8 from '../../assets/images/portfolio/g8.png';
-import g9 from '../../assets/images/portfolio/g9.png';
+
+// ĐÃ XÓA TOÀN BỘ IMPORT HÌNH ẢNH (g1 đến g9) TẠI ĐÂY
 
 export const CONTENT = {
   profile: {
@@ -92,7 +85,7 @@ export const CONTENT = {
       category: "WordPress",
       subTitle: "WordPress",
       description: "Professional corporate website focusing on construction services.",
-      image: g1,
+      image: "./assets/images/portfolio/g1.jpg", // Đã sửa thành đường dẫn tĩnh tương đối
       link: "#",
       tags: ["WordPress", "UI/UX"]
     },
@@ -102,7 +95,7 @@ export const CONTENT = {
       category: "WordPress",
       subTitle: "WordPress",
       description: "News and media portal with high traffic handling.",
-      image: g2,
+      image: "./assets/images/portfolio/g2.png", // Đã sửa
       link: "#",
       tags: ["WordPress", "Performance"]
     },
@@ -112,7 +105,7 @@ export const CONTENT = {
       category: "WordPress",
       subTitle: "WordPress",
       description: "E-commerce specialized for electronics.",
-      image: g3,
+      image: "./assets/images/portfolio/g3.png", // Đã sửa
       link: "#",
       tags: ["WordPress", "E-commerce"]
     },
@@ -122,7 +115,7 @@ export const CONTENT = {
       category: "WordPress",
       subTitle: "WordPress",
       description: "Personal branding and portfolio site.",
-      image: g4,
+      image: "./assets/images/portfolio/g4.png", // Đã sửa
       link: "#",
       tags: ["WordPress", "Branding"]
     },
@@ -130,9 +123,9 @@ export const CONTENT = {
       id: "p5",
       title: "smreal.vn",
       category: "Laravel",
-      subTitle: "WordPress",
+      subTitle: "WordPress", // Lưu ý: Ở đây bạn đang để subTitle là WordPress trong khi category là Laravel, có thể bạn muốn đổi thành "Laravel"
       description: "Real estate portal with advanced search and filtering.",
-      image: g5,
+      image: "./assets/images/portfolio/g5.png", // Đã sửa
       link: "#",
       tags: ["Laravel", "Real Estate"]
     },
@@ -142,7 +135,7 @@ export const CONTENT = {
       category: "Laravel",
       subTitle: "Laravel",
       description: "Medical equipment corporate site.",
-      image: g6,
+      image: "./assets/images/portfolio/g6.png", // Đã sửa
       link: "#",
       tags: ["Laravel", "Healthcare"]
     },
@@ -152,7 +145,7 @@ export const CONTENT = {
       category: "Laravel",
       subTitle: "Laravel",
       description: "Enterprise corporate identity site.",
-      image: g8,
+      image: "./assets/images/portfolio/g8.png", // Đã sửa (Lưu ý code gốc của bạn map id p7 với ảnh g8)
       link: "#",
       tags: ["Laravel", "Corporate"]
     },
@@ -162,7 +155,7 @@ export const CONTENT = {
       category: "Vue.js",
       subTitle: "Vue.js",
       description: "Clinic management system frontend.",
-      image: g9,
+      image: "./assets/images/portfolio/g9.png", // Đã sửa (Lưu ý code gốc của bạn map id p8 với ảnh g9)
       link: "#",
       tags: ["Vue.js", "SPA"]
     },
@@ -172,7 +165,7 @@ export const CONTENT = {
       category: "Magento2",
       subTitle: "Magento2",
       description: "High-end e-commerce store for fashion.",
-      image: g7,
+      image: "./assets/images/portfolio/g7.jpg", // Đã sửa (Lưu ý code gốc của bạn map id p9 với ảnh g7.jpg)
       link: "#",
       tags: ["Magento2", "E-commerce"]
     }

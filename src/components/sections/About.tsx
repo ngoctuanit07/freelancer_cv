@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { CONTENT } from '../../constants/content';
 import { Button } from '../ui/Button';
 import { Download } from 'lucide-react';
-import aboutImage from '../../../assets/images/ab-img.png';
+// 1. ĐÃ XÓA DÒNG: import aboutImage from './assets/images/ab-img.png';
 
 export const About: React.FC = () => {
   return (
@@ -16,7 +16,8 @@ export const About: React.FC = () => {
             className="flex-1"
           >
             <div className="relative p-4 bg-gray-800 rounded-2xl shadow-xl">
-              <img src={aboutImage} alt="Freelance web development services for Laravel WordPress Node.js and Python" className="rounded-xl w-full" />
+              {/* 2. SỬA TẠI ĐÂY: Truyền trực tiếp đường dẫn tương đối dạng chuỗi */}
+              <img src="./assets/images/ab-img.png" alt="Freelance web development services for Laravel WordPress Node.js and Python" className="rounded-xl w-full" />
             </div>
           </motion.div>
 
@@ -44,7 +45,8 @@ export const About: React.FC = () => {
               ))}
             </div>
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.4 }}>
-              <a href="/cv_tuannguyen.pdf" download>
+              {/* 3. SỬA TẠI ĐÂY: Dùng đường dẫn tương đối cho CV để tương thích tốt với thẻ Base */}
+              <a href="./cv_tuannguyen.pdf" download>
                 <Button className="flex items-center gap-2">
                   Download CV <Download size={18} />
                 </Button>

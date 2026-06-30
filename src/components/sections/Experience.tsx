@@ -1,12 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { CONTENT } from '../../constants/content';
-import homeBgImage from '../../../assets/images/home-bg-img.jpg';
+//import homeBgImage from './assets/images/home-bg-img.jpg';
 
 export const Experience: React.FC = () => {
   return (
     <section id="experience" className="section-separator bg-darkBg relative">
-       <div className="absolute inset-0 bg-black/40 z-0" style={{ backgroundImage: `url(${homeBgImage})`, backgroundSize: 'cover' }} />
+       <div className="absolute inset-0 bg-black/40 z-0" style={{ backgroundImage: `url(${'./assets/images/home-bg-img.jpg'})`, backgroundSize: 'cover' }} />
        <div className="container mx-auto px-4 relative z-10">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Education */}

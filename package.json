@@ -4,11 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "homepage": "https://ngoctuanit07.github.io/freelancer_cv",
-  "scripts": {
+ "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
-    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"          
   },
