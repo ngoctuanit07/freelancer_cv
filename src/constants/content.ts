@@ -1,4 +1,13 @@
 import { Mail, Phone, Globe, Laptop } from 'lucide-react';
+import g1 from '../../assets/images/portfolio/g1.jpg';
+import g2 from '../../assets/images/portfolio/g2.png';
+import g3 from '../../assets/images/portfolio/g3.png';
+import g4 from '../../assets/images/portfolio/g4.png';
+import g5 from '../../assets/images/portfolio/g5.png';
+import g6 from '../../assets/images/portfolio/g6.png';
+import g7 from '../../assets/images/portfolio/g7.jpg';
+import g8 from '../../assets/images/portfolio/g8.png';
+import g9 from '../../assets/images/portfolio/g9.png';
 
 export const CONTENT = {
   profile: {
@@ -83,7 +92,7 @@ export const CONTENT = {
       category: "WordPress",
       subTitle: "WordPress",
       description: "Professional corporate website focusing on construction services.",
-      image: "assets/images/portfolio/g1.jpg",
+      image: g1,
       link: "#",
       tags: ["WordPress", "UI/UX"]
     },
@@ -93,7 +102,7 @@ export const CONTENT = {
       category: "WordPress",
       subTitle: "WordPress",
       description: "News and media portal with high traffic handling.",
-      image: "assets/images/portfolio/g2.png",
+      image: g2,
       link: "#",
       tags: ["WordPress", "Performance"]
     },
@@ -103,7 +112,7 @@ export const CONTENT = {
       category: "WordPress",
       subTitle: "WordPress",
       description: "E-commerce specialized for electronics.",
-      image: "assets/images/portfolio/g3.png",
+      image: g3,
       link: "#",
       tags: ["WordPress", "E-commerce"]
     },
@@ -113,7 +122,7 @@ export const CONTENT = {
       category: "WordPress",
       subTitle: "WordPress",
       description: "Personal branding and portfolio site.",
-      image: "assets/images/portfolio/g4.png",
+      image: g4,
       link: "#",
       tags: ["WordPress", "Branding"]
     },
@@ -123,7 +132,7 @@ export const CONTENT = {
       category: "Laravel",
       subTitle: "WordPress",
       description: "Real estate portal with advanced search and filtering.",
-      image: "assets/images/portfolio/g5.png",
+      image: g5,
       link: "#",
       tags: ["Laravel", "Real Estate"]
     },
@@ -133,7 +142,7 @@ export const CONTENT = {
       category: "Laravel",
       subTitle: "Laravel",
       description: "Medical equipment corporate site.",
-      image: "assets/images/portfolio/g6.png",
+      image: g6,
       link: "#",
       tags: ["Laravel", "Healthcare"]
     },
@@ -143,7 +152,7 @@ export const CONTENT = {
       category: "Laravel",
       subTitle: "Laravel",
       description: "Enterprise corporate identity site.",
-      image: "assets/images/portfolio/g8.png",
+      image: g8,
       link: "#",
       tags: ["Laravel", "Corporate"]
     },
@@ -153,7 +162,7 @@ export const CONTENT = {
       category: "Vue.js",
       subTitle: "Vue.js",
       description: "Clinic management system frontend.",
-      image: "assets/images/portfolio/g9.png",
+      image: g9,
       link: "#",
       tags: ["Vue.js", "SPA"]
     },
@@ -163,7 +172,7 @@ export const CONTENT = {
       category: "Magento2",
       subTitle: "Magento2",
       description: "High-end e-commerce store for fashion.",
-      image: "assets/images/portfolio/g7.jpg",
+      image: g7,
       link: "#",
       tags: ["Magento2", "E-commerce"]
     }

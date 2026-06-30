@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { CONTENT } from '../../constants/content';
 import { Button } from '../ui/Button';
 import { Download } from 'lucide-react';
+import aboutImage from '../../../assets/images/ab-img.png';
 
 export const About: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ export const About: React.FC = () => {
             className="flex-1"
           >
             <div className="relative p-4 bg-gray-800 rounded-2xl shadow-xl">
-              <img src="/assets/images/ab-img.png" alt="Freelance web development services for Laravel WordPress Node.js and Python" className="rounded-xl w-full" />
+              <img src={aboutImage} alt="Freelance web development services for Laravel WordPress Node.js and Python" className="rounded-xl w-full" />
             </div>
           </motion.div>
 

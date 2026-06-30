@@ -1,10 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { CONTENT } from '../../constants/content';
+import heroImage from '../../../assets/images/hero.png';
+import homeBgImage from '../../../assets/images/home-bg-img.jpg';
 
 export const Hero: React.FC = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center relative bg-cover bg-center" style={{ backgroundImage: `url('/assets/images/home-bg-img.jpg')` }}>
+    <section id="home" className="min-h-screen flex items-center relative bg-cover bg-center" style={{ backgroundImage: `url(${homeBgImage})` }}>
       <div className="absolute inset-0 bg-black/70" />
       <div className="container mx-auto px-4 relative z-10 flex flex-col md:flex-row items-center justify-between gap-12 py-20">
         <div className="flex-1 text-center md:text-left">
@@ -73,7 +75,7 @@ export const Hero: React.FC = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             className="relative w-64 h-64 md:w-96 md:h-96 p-4 border-8 border-gray-800 rounded-full overflow-hidden shadow-2xl"
           >
-            <img src="/assets/images/hero.png" alt="Tuan Nguyen freelance Laravel and WordPress developer profile" className="w-full h-full object-cover rounded-full" />
+            <img src={heroImage} alt="Tuan Nguyen freelance Laravel and WordPress developer profile" className="w-full h-full object-cover rounded-full" />
           </motion.div>
         </div>
       </div>
