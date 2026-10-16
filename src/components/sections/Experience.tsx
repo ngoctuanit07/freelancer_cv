@@ -22,7 +22,7 @@ export const Experience: React.FC = () => {
                 >
                   <h4 className="text-xl mb-2">{edu.title}</h4>
                   <div className="text-primary font-bold mb-2">{edu.period}</div>
-                  <p>{edu.description}</p>
+                  <p className="text-gray-300 text-sm leading-relaxed">{edu.description}</p>
                 </motion.div>
               ))}
             </div>
@@ -40,9 +40,12 @@ export const Experience: React.FC = () => {
                 >
                   <h4 className="text-xl mb-2">{work.title}</h4>
                   <div className="text-primary font-bold mb-2">{work.period}</div>
-                  <ul className="list-disc list-inside space-y-1 text-sm">
+                  {work.description && (
+                    <p className="text-gray-300 text-sm mb-3 italic leading-relaxed">{work.description}</p>
+                  )}
+                  <ul className="list-disc list-inside space-y-1.5 text-sm text-gray-300">
                     {work.responsibilities?.map((resp, rIdx) => (
-                      <li key={rIdx}>{resp}</li>
+                      <li key={rIdx} className="leading-relaxed">{resp}</li>
                     ))}
                   </ul>
                 </motion.div>
