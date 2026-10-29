@@ -106,118 +106,51 @@ export const CONTENT = {
     ]
   },
   portfolioIntro: {
-    badge: "Interactive UI & HTML Demos",
-    title: "Web Development Portfolio",
-    subtitle: "Turn Any HTML Prototype Into a Dynamic WordPress Theme or Full-Stack Application",
-    description: "Browse my collection of interactive HTML/UI demos below. Found a design that fits your business vision? I can seamlessly convert any of these front-end templates into a fully customized WordPress theme, or build it into a high-performance web application using Laravel, Node.js, or Python — complete with custom database architecture, secure APIs, and an intuitive admin panel.",
-    conversionServices: [
-      {
-        tag: "WordPress CMS",
-        title: "HTML to WordPress Theme",
-        description: "Convert static templates into dynamic, Gutenberg/ACF-ready WordPress themes with full WooCommerce store integration."
-      },
-      {
-        tag: "Laravel Framework",
-        title: "HTML to Laravel Web App",
-        description: "Engineer custom business logic, secure authentication, role permissions, and scalable database backends."
-      },
-      {
-        tag: "Node.js & Python",
-        title: "HTML to Node.js / Python API",
-        description: "Develop high-speed RESTful APIs, real-time features, automated data pipelines, and microservices."
-      }
-    ]
+    badge: "Completed Products",
+    title: "Products I Have Built",
+    subtitle: "End-to-End SaaS Platforms for Real-World Operations",
+    description: "A selection of complete, working products I have designed and developed for property management, restaurants, retail operations, and schools. Explore each live application to see the user experience and core workflows in action."
   },
   projects: [
     {
       id: "p1",
-      title: "Tascon Construction",
-      category: "WordPress",
-      subTitle: "Live HTML Demo • Ready for WordPress / Laravel",
-      description: "Clean corporate UI demo for construction & architecture. Ready to convert into a dynamic WordPress CMS or Laravel web portal with quotation workflows.",
-      image: "./assets/images/portfolio/g1.jpg",
-      link: "https://jacklabs.io.vn/",
-      tags: ["HTML5 Demo", "WordPress Theme", "Laravel"]
+      title: "Rentora",
+      category: "Property Management",
+      subTitle: "Rental Management & Tenant Portal",
+      description: "An integrated rental platform connecting landlords, property managers, and tenants with property search, online applications, leases, rent payments, and maintenance requests.",
+      image: "./assets/images/portfolio/rentora.png",
+      link: "https://rentora-lac.vercel.app/",
+      tags: ["Property SaaS", "Tenant Portal", "Full Stack"]
     },
     {
       id: "p2",
-      title: "BAMC Media & Portal",
-      category: "WordPress",
-      subTitle: "Live HTML Demo • High-Traffic Media Ready",
-      description: "High-performance news portal interface. Can be deployed on WordPress with advanced caching or built with Node.js/Python for real-time article delivery.",
-      image: "./assets/images/portfolio/g2.png",
-      link: "https://jacklabs.io.vn/",
-      tags: ["HTML5 Demo", "WordPress", "Node.js"]
+      title: "TableTrack",
+      category: "Restaurant SaaS",
+      subTitle: "Restaurant Operations Platform",
+      description: "A complete restaurant management system with POS sales, QR ordering, kitchen displays, table reservations, reporting, and staff management for single or multi-branch operations.",
+      image: "./assets/images/portfolio/restaurant-saas.png",
+      link: "https://restaurant-sass-zeta.vercel.app/",
+      tags: ["Restaurant SaaS", "POS", "QR Ordering"]
     },
     {
       id: "p3",
-      title: "BHG Electronics E-Commerce",
-      category: "WordPress",
-      subTitle: "Live HTML Demo • E-Commerce Ready",
-      description: "Modern electronics store UI. Convertible into a WooCommerce shop or a custom Laravel/Python e-commerce platform with automated payment gateways.",
-      image: "./assets/images/portfolio/g3.png",
-      link: "https://jacklabs.io.vn/",
-      tags: ["HTML5 Demo", "WooCommerce", "Laravel"]
+      title: "Stocky SaaS",
+      category: "Retail SaaS",
+      subTitle: "Inventory, POS & Multi-Channel Sales",
+      description: "An all-in-one retail platform combining multi-warehouse inventory, barcode POS, an e-commerce storefront, and subscription billing in a single operational system.",
+      image: "./assets/images/portfolio/stocky-saas.png",
+      link: "https://stocky-saas.vercel.app/",
+      tags: ["Inventory", "Retail POS", "E-Commerce"]
     },
     {
       id: "p4",
-      title: "Jacklabs Portfolio & Agency",
-      category: "WordPress",
-      subTitle: "Live HTML Demo • Personal Branding & Agency",
-      description: "Personal branding and digital service portfolio site with fast loading speed, interactive animations, and responsive layout.",
-      image: "./assets/images/portfolio/g4.png",
-      link: "https://jacklabs.io.vn/",
-      tags: ["HTML5 Demo", "WordPress", "Branding"]
-    },
-    {
-      id: "p5",
-      title: "SM Real Estate Platform",
-      category: "Laravel",
-      subTitle: "Live HTML Demo • Real Estate Portal",
-      description: "Real estate listing interface featuring advanced filtering and map integration. Ready to integrate with Laravel or Python (FastAPI/Django) backend.",
-      image: "./assets/images/portfolio/g5.png",
-      link: "https://jacklabs.io.vn/",
-      tags: ["HTML5 Demo", "Laravel", "Python"]
-    },
-    {
-      id: "p6",
-      title: "Vieta Medical Corporate",
-      category: "Laravel",
-      subTitle: "Live HTML Demo • Healthcare Corporate",
-      description: "Medical equipment corporate site with product catalog, certification showcase, and direct inquiry workflow.",
-      image: "./assets/images/portfolio/g6.png",
-      link: "https://jacklabs.io.vn/",
-      tags: ["HTML5 Demo", "Laravel", "Healthcare"]
-    },
-    {
-      id: "p7",
-      title: "Vieta Corp Identity",
-      category: "Laravel",
-      subTitle: "Live HTML Demo • Enterprise Identity",
-      description: "Enterprise corporate identity site designed for scalability, multi-language support, and high-security compliance.",
-      image: "./assets/images/portfolio/g8.png",
-      link: "https://jacklabs.io.vn/",
-      tags: ["HTML5 Demo", "Laravel", "Enterprise"]
-    },
-    {
-      id: "p8",
-      title: "VAC Healthcare & Clinic SPA",
-      category: "Vue.js",
-      subTitle: "Live Frontend Demo • SPA Architecture",
-      description: "Clinic management interface built with Vue.js SPA. Connects seamlessly with Node.js, Python, or Laravel APIs for appointment booking and patient records.",
-      image: "./assets/images/portfolio/g9.png",
-      link: "https://jacklabs.io.vn/",
-      tags: ["Vue.js SPA", "Node.js API", "Laravel"]
-    },
-    {
-      id: "p9",
-      title: "Ben Tre Shop Fashion",
-      category: "Magento2",
-      subTitle: "Live HTML Demo • Fashion E-Commerce",
-      description: "High-end fashion e-commerce store with product filtering, cart drawer, and optimized checkout flow for WordPress or Magento.",
-      image: "./assets/images/portfolio/g7.jpg",
-      link: "https://jacklabs.io.vn/",
-      tags: ["HTML5 Demo", "WooCommerce", "Magento2"]
+      title: "SOA School Management",
+      category: "Education",
+      subTitle: "Comprehensive School Management System",
+      description: "A role-based school operations platform for administrators, teachers, accountants, librarians, parents, and students, with dedicated account and card-based access.",
+      image: "./assets/images/portfolio/school-management.png",
+      link: "https://school-management-six-pink.vercel.app/",
+      tags: ["School ERP", "Role-Based Access", "Management"]
     }
   ]
 };

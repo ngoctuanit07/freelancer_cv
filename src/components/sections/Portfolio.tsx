@@ -24,7 +24,7 @@ export const Portfolio: React.FC = () => {
               <span>{intro.badge}</span>
             </div>
           )}
-          <h2 className="text-3xl md:text-4xl font-bold mb-3">{intro?.title || "Web Development Portfolio"}</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-3">{intro?.title || "Products I Have Built"}</h2>
           {intro?.subtitle && (
             <p className="text-lg md:text-xl text-primary font-medium mb-4">{intro.subtitle}</p>
           )}
@@ -71,7 +71,7 @@ export const Portfolio: React.FC = () => {
         </div>
 
         {/* Project Grid */}
-        <motion.div layout className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <motion.div layout className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
           <AnimatePresence>
             {filteredProjects.map((project) => (
               <motion.div
@@ -117,7 +117,7 @@ export const Portfolio: React.FC = () => {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-primary text-white rounded-lg text-xs font-semibold hover:bg-primary/90 transition-colors shadow-sm"
                     >
-                      <span>Preview Demo</span>
+                      <span>View Live Product</span>
                       <ExternalLink size={13} />
                     </a>
                   </div>
