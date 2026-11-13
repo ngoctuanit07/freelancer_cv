@@ -26,3 +26,19 @@ export interface Project {
   link: string;
   tags: string[];
 }
+
+export type SupportedStack = 'Laravel' | 'WordPress' | 'Next.js';
+
+export interface TemplateProduct {
+  id: string;
+  title: string;
+  category: string;
+  tagline: string;
+  description: string;
+  image: string;
+  demoUrl: string;
+  vercelProjectUrl?: string;
+  tags: string[];
+  supportedStacks: SupportedStack[];
+  features?: string[];
+}

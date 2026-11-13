@@ -152,5 +152,218 @@ export const CONTENT = {
       link: "https://school-management-six-pink.vercel.app/",
       tags: ["School ERP", "Role-Based Access", "Management"]
     }
+  ],
+  templatesIntro: {
+    badge: "Ready-to-Deploy Templates",
+    title: "Web Templates & Full-Stack Solutions",
+    subtitle: "Custom-Built HTML Templates • Turnkey Frontend & Backend Delivery",
+    description: "Explore my curated collection of 15 production-ready HTML templates across various industries. Every template can be completely customized and converted into a full-stack, dynamic web application using Laravel, WordPress, or Next.js — delivering both high-performance frontend interfaces and robust backend management.",
+    fullStackNotice: {
+      headline: "Full-Stack Custom Development Available",
+      subheadline: "Need more than a static template? I can build the complete frontend and backend for your selected design using:",
+      stacks: [
+        {
+          name: "Laravel",
+          badge: "Full-Stack / API",
+          desc: "Custom Admin CMS, secure authentication, relational databases (MySQL/PostgreSQL), RESTful APIs, order processing, and payment gateway integration (Stripe, PayPal, VNPay).",
+          features: ["Custom Admin Panel", "RESTful API Backend", "Scalable Database Architecture", "Payment & Webhook Integration"]
+        },
+        {
+          name: "WordPress / WooCommerce",
+          badge: "CMS & E-Commerce",
+          desc: "Full custom theme conversion, Gutenberg / ACF custom fields, WooCommerce store configuration, multi-currency support, and easy non-technical content management.",
+          features: ["Custom Theme Conversion", "WooCommerce Integration", "SEO & Speed Optimization", "User-Friendly Dashboard"]
+        },
+        {
+          name: "Next.js & React",
+          badge: "Modern Jamstack",
+          desc: "High-performance Server-Side Rendering (SSR) & Static Generation (SSG), lightning-fast page transitions, API routes, and seamless Headless CMS integration.",
+          features: ["SSR & SSG Performance", "Headless CMS Integration", "Interactive UI Components", "Production Edge Deployment"]
+        }
+      ]
+    }
+  },
+  templates: [
+    {
+      id: "tpl-bags",
+      title: "Bags & Luxury Accessories",
+      category: "Fashion & Lifestyle",
+      tagline: "High-End E-Commerce Storefront",
+      description: "A refined, minimalist online boutique tailored for luxury handbags, leather goods, and fashion accessories with rich product filtering and wishlist support.",
+      image: "./assets/images/templates/bags.png",
+      demoUrl: "https://bagstemplate.vercel.app/",
+      tags: ["E-Commerce", "Accessories", "Bags"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["Filterable catalog", "Quick view drawer", "Mobile-optimized cart", "Brand story section"]
+    },
+    {
+      id: "tpl-beauty",
+      title: "Beauty, Cosmetics & Skincare",
+      category: "Health & Wellness",
+      tagline: "Modern Beauty & Organic Wellness",
+      description: "Pastel-accented e-commerce design built for cosmetic lines, organic skincare brands, and wellness salons with product highlight tabs and mega menu.",
+      image: "./assets/images/templates/beauty.png",
+      demoUrl: "https://beautytemplate.vercel.app/",
+      tags: ["Cosmetics", "Skincare", "Beauty"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["Skincare routine tabs", "Customer reviews slider", "Newsletter popup", "Ingredients highlight"]
+    },
+    {
+      id: "tpl-fashion7",
+      title: "Fashion 7 Apparel & Invoicing",
+      category: "Fashion & Lifestyle",
+      tagline: "Retail Apparel with Built-In Invoicing",
+      description: "Full-scale fashion store template equipped with multiple ready-to-use invoice layouts, email notification designs, and seasonal lookbook sliders.",
+      image: "./assets/images/templates/fashion-7.png",
+      demoUrl: "https://fashion-7template.vercel.app/",
+      tags: ["Fashion", "Apparel", "Invoice UI"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["5 Invoice templates", "Email announcement UI", "Trending fashion slider", "Countdown promotions"]
+    },
+    {
+      id: "tpl-goggles",
+      title: "Eyewear, Sunglasses & Goggles",
+      category: "Fashion & Lifestyle",
+      tagline: "Designer Eyewear & Optics Shop",
+      description: "Sleek and focused storefront designed for designer sunglasses, optical frames, and sports eyewear with interactive frame category previews.",
+      image: "./assets/images/templates/goggles.png",
+      demoUrl: "https://gogglestemplate.vercel.app/",
+      tags: ["Eyewear", "Sunglasses", "Optical"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["Frame shape filter", "Lens type selector", "High-res zoom", "Responsive checkout"]
+    },
+    {
+      id: "tpl-gradient-v1",
+      title: "Gradient Tech Store v1",
+      category: "Creative & Showcase",
+      tagline: "Vibrant Gradient Tech & Gadgets",
+      description: "High-energy gradient aesthetic with multi-currency selector, multi-language toggles, and modular promo banners for tech gear and creative gadgets.",
+      image: "./assets/images/templates/gradient-v1.png",
+      demoUrl: "https://gradienttemplate.vercel.app/",
+      tags: ["Gradient UI", "Multi-Currency", "Gadgets"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["Multi-currency switch", "Language selector", "Vibrant gradient styling", "Product card hover effects"]
+    },
+    {
+      id: "tpl-gym",
+      title: "Gym, Fitness & Protein Nutrition",
+      category: "Health & Wellness",
+      tagline: "Athletic Club & Sports Nutrition",
+      description: "Dynamic, dark-mode athletic storefront for gym facilities, fitness trainers, and protein supplement stores with nutrition breakdown sections.",
+      image: "./assets/images/templates/gym.png",
+      demoUrl: "https://gymtemplate-phi.vercel.app/",
+      tags: ["Gym", "Fitness", "Supplements"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["Supplement nutrition facts", "Trainer merchandise", "Subscription packs", "High-contrast dark UI"]
+    },
+    {
+      id: "tpl-gradient-v2",
+      title: "Gradient Creative Shop v2",
+      category: "Creative & Showcase",
+      tagline: "Modern Fluid Gradient Storefront",
+      description: "Contemporary storefront layout featuring smooth gradient blends, tabbed collection showcases, promotional banners, and clean typography.",
+      image: "./assets/images/templates/gradient-v2.png",
+      demoUrl: "https://gradienttemplate-kx3p.vercel.app/",
+      tags: ["Gradient UI", "Modern Retail", "Showcase"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["Fluid color gradients", "Tabbed collections", "Featured deals banner", "Clean mobile drawer"]
+    },
+    {
+      id: "tpl-kids",
+      title: "Kids & Baby Fashion Store",
+      category: "Fashion & Lifestyle",
+      tagline: "Playful Children Apparel & Toys",
+      description: "Joyful and family-friendly e-commerce theme tailored for children's clothing, toys, and baby essentials with intuitive age-based navigation.",
+      image: "./assets/images/templates/kids.png",
+      demoUrl: "https://kidstemplate.vercel.app/",
+      tags: ["Kids Fashion", "Baby Care", "Toys"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["Age category filters", "Playful iconography", "Safety badges display", "Bundle deal sections"]
+    },
+    {
+      id: "tpl-lookbook",
+      title: "Editorial Fashion Lookbook",
+      category: "Fashion & Lifestyle",
+      tagline: "High-Fashion Editorial & Catalog",
+      description: "Magazine-inspired visual catalog built for fashion houses and independent designers featuring lookbook storytelling and interactive product tags.",
+      image: "./assets/images/templates/lookbook.png",
+      demoUrl: "https://lookbooktemplate.vercel.app/",
+      tags: ["Lookbook", "Editorial", "High Fashion"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["Full-bleed photography", "Interactive lookbook pins", "Designer notes", "Minimalist checkout"]
+    },
+    {
+      id: "tpl-medical",
+      title: "Medical & Healthcare Supplies",
+      category: "Health & Wellness",
+      tagline: "Clinical Equipment & Pharmacy",
+      description: "Trust-oriented professional layout for pharmacies, medical device distributors, and clinic supplies with structured prescription notes and categories.",
+      image: "./assets/images/templates/medical.png",
+      demoUrl: "https://medicaltemplate-ecru.vercel.app/",
+      tags: ["Medical", "Healthcare", "Pharmacy"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["Prescription upload UI", "Clinical category tree", "Regulatory compliance badges", "Bulk order request"]
+    },
+    {
+      id: "tpl-parallax",
+      title: "Parallax Interactive Experience",
+      category: "Creative & Showcase",
+      tagline: "3D Depth & Narrative Scrolling",
+      description: "Visually immersive template featuring smooth parallax scrolling layers, full-screen hero slides, and cinematic storytelling for innovative brands.",
+      image: "./assets/images/templates/parallax.png",
+      demoUrl: "https://parallaxtemplate-alpha.vercel.app/",
+      tags: ["Parallax", "Motion", "Storytelling"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["Multi-layer parallax", "Smooth scroll physics", "Fullscreen hero visuals", "Interactive micro-animations"]
+    },
+    {
+      id: "tpl-pets",
+      title: "Pet Shop & Animal Care",
+      category: "Retail & Specialty",
+      tagline: "Pet Food, Care & Accessories",
+      description: "Heartwarming and approachable storefront for pet supply shops, veterinary clinics, grooming salons, and animal adoption centers.",
+      image: "./assets/images/templates/pets.png",
+      demoUrl: "https://petstemplate.vercel.app/",
+      tags: ["Pets", "Pet Food", "Animal Care"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["Pet type filter (Dog/Cat/Fish)", "Dietary food filters", "Grooming booking UI", "Customer pet photo gallery"]
+    },
+    {
+      id: "tpl-vegetables",
+      title: "Organic Grocery & Fresh Market",
+      category: "Retail & Specialty",
+      tagline: "Farm-Fresh Produce & Supermarket",
+      description: "Fresh green-themed grocery marketplace featuring fresh produce categories, daily deal timers, weight-based quantity selectors, and delivery slots.",
+      image: "./assets/images/templates/vegetables.png",
+      demoUrl: "https://vegetables-5template.vercel.app/",
+      tags: ["Organic Food", "Grocery", "Fresh Market"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["Weight & quantity selector", "Daily fresh deals banner", "Delivery time selector UI", "Organic certification tags"]
+    },
+    {
+      id: "tpl-video",
+      title: "Video Background Beauty Showcase",
+      category: "Creative & Showcase",
+      tagline: "Multimedia Hero & Luxury Cosmetics",
+      description: "Captivating retail storefront featuring autoplay background video hero banners, luxury aesthetics, drawer filters, and high-impact promotions.",
+      image: "./assets/images/templates/video.png",
+      demoUrl: "https://videotemplate-five.vercel.app/",
+      tags: ["Video BG", "Multimedia", "Cosmetics"],
+      supportedStacks: ["Laravel", "WordPress", "Next.js"],
+      features: ["HTML5 Video background", "Slide-out filter drawer", "Luxury cosmetic cards", "Newsletter capture"]
+    },
+    {
+      id: "tpl-yoga",
+      title: "Yoga Studio & Online Classes",
+      category: "Health & Wellness",
+      tagline: "Next.js Wellness & Class Booking",
+      description: "Full Next.js wellness platform featuring yoga class schedule timetable, instructor biographies, membership tiers, wellness blog, and cart booking.",
+      image: "./assets/images/templates/yoga.png",
+      demoUrl: "https://yogatemplate.vercel.app/",
+      vercelProjectUrl: "https://vercel.com/walters-projects-2196e8f3/yoga_template",
+      tags: ["Next.js", "Yoga Studio", "Class Booking"],
+      supportedStacks: ["Next.js", "Laravel", "WordPress"],
+      features: ["Weekly class schedule UI", "Instructor profiles", "Membership pricing cards", "Online booking flow"]
+    }
   ]
 };

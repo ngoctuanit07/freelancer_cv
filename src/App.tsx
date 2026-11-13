@@ -4,6 +4,7 @@ import { About } from './components/sections/About';
 import { Skills } from './components/sections/Skills';
 import { Experience } from './components/sections/Experience';
 import { Portfolio } from './components/sections/Portfolio';
+import { Templates } from './components/sections/Templates';
 import { Contact } from './components/sections/Contact';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Skills />
         <Experience />
         <Portfolio />
+        <Templates />
         <Contact />
       </main>
       <footer className="py-8 bg-darkCard text-center border-t border-gray-800">
